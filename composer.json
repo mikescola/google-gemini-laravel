@@ -1,5 +1,5 @@
 {
-  "name": "google-gemini-php/laravel",
+  "name": "whim-corp/google-gemini-laravel",
   "description": "Google Gemini PHP for Laravel is a supercharged PHP API client that allows you to interact with the Google Gemini AI API",
   "keywords": ["laravel","php", "gemini", "sdk", "api", "client", "natural", "language", "processing"],
   "license": "MIT",
@@ -9,9 +9,15 @@
       "email": "aydinfatih52@gmail.com"
     }
   ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/whim-corp/google-gemini-php"
+    }
+  ],
   "require": {
     "php": "^8.1.0",
-    "google-gemini-php/client": "^1.0",
+    "whim-corp/google-gemini-php": "dev-main",
     "laravel/framework": "^9.0|^10.0|^11.0"
   },
   "require-dev": {
