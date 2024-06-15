@@ -11,13 +11,13 @@
   ],
   "repositories": [
     {
-      "type": "git",
-      "url": "https://github.com/whim-corp/google-gemini-php"
+      "type": "vcs",
+      "url": "https://github.com/mikescola/google-gemini-client"
     }
   ],
   "require": {
     "php": "^8.1.0",
-    "whim-corp/google-gemini-php": "dev-main",
+    "mikescola/google-gemini-client": "dev-main",
     "laravel/framework": "^9.0|^10.0|^11.0"
   },
   "require-dev": {
